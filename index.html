@@ -1,78 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Deepika Sharma - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepika Sharma - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background: #4b3f72;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #4b3f72;
+      border-left: 4px solid #4b3f72;
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.7;
+    }
+
+    .section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #4b3f72;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-<table>
-      <tr>
-        <td valign="top">
-          <img src="pic.jpg" alt="Profile Picture" width="180" height="200">
-        </td>
-        <td valign="top" style="padding-left: 30px;">
-          <h1>Deepika Sharma</h1>
-          <p>
-            Email: dee001sharma@gmail.com<br>
-            Phone: 7088254595<br>
-            City: Ghaziabad
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/in/deepikasharma1704" target="_blank">
-            <img src="linkedin.png" alt="LinkedIn" width="30" height="30">
-            </a>
-            <a href="https://github.com/Deepikasharma-04?tab=repositories" target="_blank">
-            <img src="github.png" alt="Github" width="30" height="30">
-            </a>
-          </p>
-        </td>
-      </tr>
-    </table>
 
-  <h2>About Me</h2>
-  <p>I am a passionate MCA student with a strong foundation in Python, SQL, Power BI, and data analytics. I enjoy working on projects that combine problem-solving and creativity, from building data-driven dashboards to developing efficient code solutions. My goal is to grow as a Data Scientist, leveraging my skills to extract meaningful insights and contribute to impactful projects."</p>
+<header>
+  <img src="github.png" alt="Deepika Sharma Photo" />
+  <h1>Deepika Sharma</h1>
+  <p>Email: dee001sharma@gmail.com | Phone: 7088254595 | City: Ghaziabad</p>
+  <div class="social-links" style="margin-top:10px;">
+    <a href="https://github.com/Deepikasharma-04?tab=repositories" target="_blank" style="margin:0 10px; color:white; font-size:24px;">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/deepikasharma1704" target="_blank" style="margin:0 10px; color:white; font-size:24px;">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+</header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Home Automation System – Developed an IoT-based Home Automation System integrating temperature, humidity, and motion sensors, demonstrating expertise in IoT technologies, sensor integration, and smart system design.</li>
-    <li>Sales Analysis – Analyzed Diwali sales data using Python to identify top-performing product categories and generate actionable insights to enhance customer satisfaction and drive sales growth.</li>
-    <li>Business Growth Analysis - Utilized SQL for efficient data extraction and querying, analyzing a music playlist database to uncover trends and provide business growth insights for the store.</li>
-</ul>
+<div class="container">
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python</li>
-    <li>SQL</li>
-    <li>DBMS</li>
-    <li>Microsoft Power BI</li>
-  </ul>
+  <div class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate MCA student with a strong foundation in Python, SQL, Power BI, and data analytics. I enjoy working on projects that combine problem-solving and creativity, from building data-driven dashboards to developing efficient code solutions. My goal is to grow as a Data Scientist, leveraging my skills to extract meaningful insights and contribute to impactful projects.</p>
+  </div>
 
-<h2>Education</h2>
-  <ul>
-    <li>
-      <b>Masters's of Computer Applications</b><br>
-      KIET Group of Institutions, Ghaziabad<br>
-      2025 – 2027
-    </li>
-    <li>
-      <b>Bachelor's of Computer Applications</b><br>
-      Invertis University, Bareilly<br>
-      2021 – 2024
-    </li>
-    <li>
-      <b>Intermediate (Science)</b><br>
-      C.B.S.E.<br>
-      2019 – 2021
-    </li>
-  </ul>
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Home Automation System – Developed an IoT-based Home Automation System integrating temperature, humidity, and motion sensors.</li>
+      <li>Sales Analysis – Analyzed Diwali sales data using Python to identify top-performing product categories and insights.</li>
+      <li>Business Growth Analysis – Utilized SQL for efficient data extraction, uncovering trends from a music playlist database.</li>
+    </ul>
+  </div>
 
-<h2>Certifications</h2>
-  <ul>
-    <li>Data Analytics and Visualization Job Simulation on Forage</li>
-    <li>Python with Data Science by IBM</li>
-    <li>SQL and Relational Databases by IBM</li>
-    <li>Microsoft Power BI</li>
-  </ul>
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>DBMS</li>
+      <li>Microsoft Power BI</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><b>Masters's of Computer Applications</b><br>KIET Group of Institutions, Ghaziabad<br>2025 – 2027</li>
+      <li><b>Bachelor's of Computer Applications</b><br>Invertis University, Bareilly<br>2021 – 2024</li>
+      <li><b>Intermediate (Science)</b><br>C.B.S.E.<br>2019 – 2021</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  © 2025 Deepika Sharma | Portfolio
+</footer>
+
 </body>
 </html>
-
-
